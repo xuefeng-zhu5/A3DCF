@@ -15,7 +15,7 @@ Official implementation of the paper Robust Visual Object Tracking via Adaptive 
 - [PDollar Toolbox](https://pdollar.github.io/toolbox)
 - mtimesx (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mtimesx)
 - mexResize (https://github.com/martin-danelljan/ECO/tree/master/external_libs/mexResize) 
-- MatConvNet, PDollar Toolbox. Please download the latest MatConvNet (http://www.vlfeat.org/matconvnet/) in './tracker_exter/matconvnet' (Set 'opts.enableGpu = true' in 'matconvnet/matlab/vl_compilenn.m')
+- MatConvNet. Please download the latest [MatConvNet](http://www.vlfeat.org/matconvnet/) in './tracker_exter/matconvnet' (Set 'opts.enableGpu = true' in 'matconvnet/matlab/vl_compilenn.m'). Please download the [ResNet50](http://www.vlfeat.org/matconvnet/models/imagenet-resnet-50-dag.mat) and put it in /path/to/AAADCF/tracker_featu/networks/.
 
 Installation: Run install.m file to compile the libraries and download networks.
 
